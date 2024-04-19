@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="contoh.css" />
+    <title>Multi-Step Form</title>
+  </head>
+  <body>
+    <section>
+      <div id="profile" class="form-section" style="background-color: red">
+        <div class="container">
+          <div class="tabs">
+            <button class="tab-btn active" data-target="profile">Profile</button>
+            <button class="tab-btn" data-target="schedule">Schedule</button>
+            <button class="tab-btn" data-target="history">History</button>
+          </div>
+          <div class="form-group">
+            <label for="nama-lengkap">Nama Lengkap</label>
+            <input type="text" id="nama-lengkap" placeholder="Raka Argacandra" />
+          </div>
+          <div class="form-group">
+            <label for="nama-panggilan">Nama Panggilan</label>
+            <input type="text" id="nama-panggilan" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="[email protected]" />
+          </div>
+          <div class="cont1">
+            <div class="form-group">
+              <label for="telepon">Telepon</label>
+              <input type="text" id="telepon" />
+            </div>
+            <div class="form-group">
+              <label for="jenis-kelamin">Jenis Kelamin</label>
+              <select id="jenis-kelamin">
+                <option value="" disabled selected>Pilih jenis kelamin</option>
+                <option value="laki-laki">Laki-laki</option>
+                <option value="perempuan">Perempuan</option>
+              </select>
+            </div>
+          </div>
+          <button>Update Profile</button>
+        </div>
+      </div>
+
+      <div id="schedule" class="form-section">
+        <div class="container">
+          <div class="tabs">
+            <button class="tab-btn" data-target="profile">Profile</button>
+            <button class="tab-btn active" data-target="schedule">Schedule</button>
+            <button class="tab-btn" data-target="history">History</button>
+          </div>
+          <input type="date" placeholder="Date" id="schedule-date" name="schedule-date" required />
+          <input type="time" placeholder="Time" id="schedule-time" name="schedule-time" required />
+        </div>
+      </div>
+
+      <div id="history" class="form-section">
+        <div class="container">
+          <div class="tabs">
+            <button class="tab-btn" data-target="profile">Profile</button>
+            <button class="tab-btn active" data-target="schedule">Schedule</button>
+            <button class="tab-btn" data-target="history">History</button>
+          </div>
+          <h2>History</h2>
+          <textarea placeholder="Add a note here" rows="5" id="history-note" name="history-note"></textarea>
+        </div>
+      </div>
+    </section>
+
+    <script src="contoh.js"></script>
+  </body>
+</html>

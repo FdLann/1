@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Sahabat Pulih</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="logo">Sahabat Pulih</h1>
+      <nav>
+        <ul>
+          <li><a href="index1.html" style="color: yellow; font-weight: bold">BERANDA</a></li>
+          <li><a href="/boots/index.html">PSIKOLOG</a></li>
+          <li><a href="about-us.html">TENTANG KAMI</a></li>
+          <li><a href="artikel.html">ARTIKEL</a></li>
+          <li><button>DAFTAR</button></li>
+        </ul>
+        <div class="burger-menu">&#9776;</div>
+      </nav>
+    </header>
+
+    <section class="beranda1">
+      <div class="beranda1-teks">
+        <h1>Jangan Biarkan Trauma Mengendap Dalam Hatimu</h1>
+        <p>Temukan Dukungan Dan Jalan Keluar Bersama Sahabat Pulih.</p>
+        <p>Kami Yakin Akan Mengatasi Masalahmu.</p>
+        <button class="beranda-btn">Daftar Sekarang</button>
+      </div>
+
+      <div class="beranda1-gmbr"><img src="/gambar/beranda 1.png" alt="" /></div>
+    </section>
+
+    <!-- SECTION 2 -->
+    <section class="beranda2">
+      <h1>Layanan Konseling Yang Kami <span class="subtext">Tawarkan</span></h1>
+      <div class="container">
+        <div class="box video-call">
+          <img src="/gambar/live call.png" alt="" />
+        </div>
+        <div class="box video-call">
+          <img src="/gambar/video call.png" alt="" />
+        </div>
+        <div class="box live-chat">
+          <img src="/gambar/live chat.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- section 2 end -->
+
+    <!-- section 3 -->
+    <section class="beranda3">
+      <div class="beranda3-text">
+        <h1>Tentang Kami</h1>
+        <p>Menyediakan platform online yang mudah diakses, aman, dan nyaman bagi korban bullying untuk berbagi pengalaman, mendapatkan dukungan, dan menemukan solusi.</p>
+      </div>
+      <div class="beranda3-btn">
+        <button onclick="window.location.href='about-us.html'">Lebih Lanjut >>></button>
+      </div>
+    </section>
+    <!-- section 3 end -->
+
+    <!-- section 4 -->
+    <section class="beranda4">
+    <h1>ARTIKEL YANG MUNGKIN DAPAT MEMBANTU</h1>
+    <div class="real">
+      <div class="container">
+        <div class="image full-width">
+          <!-- Gambar pertama -->
+          <img src="/gambar/artikle 1.png" alt="Gambar 1" />
+        </div>
+        <div class="images-column">
+          <div class="half-width">
+            <!-- Gambar kedua -->
+            <img src="/gambar/artikle 2.png" alt="Gambar 2" />
+          </div>
+          <div class="image half-width">
+            <!-- Gambar ketiga -->
+            <img src="/gambar/artikle 3.png" alt="Gambar 3" />
+          </div>
+        </div>
+      </div>
+
+      <div class="penjelasan">
+        <div class="box-text" onclick="toggleAnswer(this)">
+          <div class="no">1</div>
+          <div class="text1">
+            <h2>Kebebasan yang kamu cari itu seperti apa ?</h2>
+            <p style="display: none">Apa sekarang kamu merasa terjebak dalam rasa trauma mu? apa kamu ingin keluar dari rasa tidak itu? apa kamu membutuhkan seseorang untuk bisa mengerti kamu, atau orang yang bisa membantumu keluar dari permasalahanmu.</p>
+          </div>
+        </div>
+
+        <!-- Add more FAQ items here -->
+        <div class="box-text" onclick="toggleAnswer(this)">
+          <div class="no">2</div>
+          <div class="text1">
+            <h2>Apa hal yang paling kamu inginkan saat ini ?</h2>
+            <p style="display: none">
+              Dalam menjalani hidup ini, pastinya akan banyak masalah yang akan datang menerpa. Semakin bertambah usia, masalah juga akan tambah kompleks. Badai tidak akan berlalu, namun digantikan dengan badai yang lainnya. Itulah hidup.
+            </p>
+          </div>
+        </div>
+
+        <!-- Add more FAQ items here -->
+
+        <div class="box-text" onclick="toggleAnswer(this)">
+          <div class="no">3</div>
+          <div class="text1">
+            <h2>Cara mengatasi rasa cemas</h2>
+            <p style="display: none">Rasa cemas yang timbul adalah normal karena hal tersebut merupakan respons yang dialami saat seseorang mengalami stres.</p>
+          </div>
+        </div>
+        <div class="box-text" onclick="toggleAnswer(this)">
+          <div class="no">4</div>
+          <div class="text1">
+            <h2>Hal-hal yang perlu kamu waspadai ?</h2>
+            <p style="display: none">Rasa cemas yang timbul adalah normal karena hal tersebut merupakan respons yang dialami saat seseorang mengalami stres.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <!-- beranda 4 end -->
+
+      <!-- beranda 5 -->
+      <section class="banner">
+        <h1>Kamu Adalah Dirimu Sendiri</h1>
+        <p>dan itu sudah cukup. Jangan biarkan bullying membuatmu meragukan dirimu sendiri.</p>
+        <div class="butt1">
+          <a href="#" class="toggle-button">Lebih lanjut >></a>
+        </div>
+      </section>
+
+      <section class="beranda6">
+        <div class="beranda6-text">
+          <h1><span class="color1">SEBERAPA BESAR</span> <span class="color2">MASALAHMU</span> PSIKOLOGI SAHABAT PULIH SIAP MENDENGARKAN</h1>
+          <p>Jangan ragu menghubungi psikolog sahabat pulih, kamu bebas memilih sesuai kata hatimu, karena psikolog sahabat pulih akan membantumu dalam mengatasi masalah mu, sesuai dengan apa yang paling kamu butuhkan.</p>
+        </div>
+        <div class="profile-carousel">
+          <div class="carousel-inner">
+            <div id="my-profile-box" class="profile-box active" draggable="true">
+              <img src="/gambar/Profile 1.png" alt="Foto Psikolog 1" />
+              <h2>Psikologi Klinis Dewasa</h2>
+              <h1>Rigel Yandra,M.Psi., Psikolog</h1>
+              <div class="sesi">
+                <span class="material-symbols-outlined"> group </span>
+                <p>200+ sesi</p>
+              </div>
+              <div class="sesi">
+                <span class="material-symbols-outlined"> favorite </span>
+                <p>99% Puas (122 Review)</p>
+              </div>
+              <div class="sesi">
+                <span class="material-symbols-outlined"> trip </span>
+                <p>2 - 10 Tahun</p>
+              </div>
+            </div>
+            <div id="my-profile-box" class="profile-box" draggable="true">
+              <img src="/gambar/Profile 2.png" alt="Foto Psikolog 2" />
+              <h2>Psikologi Klinik Dewasa</h2>
+              <h1>Zayen, M.Psi., Psikologi</h1>
+              <div class="sesi">
+                <span class="material-symbols-outlined"> group </span>
+                <p>200+ sesi</p>
+              </div>
+              <div class="sesi">
+                <span class="material-symbols-outlined"> favorite </span>
+                <p>99% Puas (122 Review)</p>
+              </div>
+              <div class="sesi">
+                <span class="material-symbols-outlined"> trip </span>
+                <p>2 - 10 Tahun</p>
+              </div>
+            </div>
+            <div id="my-profile-box" class="profile-box" draggable="true">
+              <img src="/gambar/Profile 3.png" alt="Foto Psikolog 3" />
+              <h2>Psikologi Klinik Dewasa</h2>
+              <h1>Fitra Ramadan,M.Psi.,Psikolog</h1>
+              <div class="sesi">
+                <span class="material-symbols-outlined"> group </span>
+                <p>200+ sesi</p>
+              </div>
+              <div class="sesi">
+                <span class="material-symbols-outlined"> favorite </span>
+                <p>99% Puas (122 Review)</p>
+              </div>
+              <div class="sesi">
+                <span class="material-symbols-outlined"> trip </span>
+                <p>2 - 10 Tahun</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- beranda 6 end -->
+
+      <section class="beranda7">
+        <h1>Yang Dikatakan Oleh Klient Kami</h1>
+        <div class="container">
+          <div class="testimonial-container">
+            <div class="testimonial">
+              <img src="/gambar/Profile 1.png" alt="Avatar" class="avatar" />
+              <p class="name">Kim Dokje</p>
+              <p class="date">27 Maret 2023</p>
+              <p class="comment">Rasa trauma yang saya alami selama berada di ORV dan bertemu orang gila yang membuang saya ke mulut naga air saat pertemuan pertama, bisa saya atasi berkat konsultasi di sahabat pulih.</p>
+            </div>
+            <div class="testimonial">
+              <img src="/gambar/Profile 2.png" alt="Avatar" class="avatar" />
+              <p class="name">yeo jeonghyuk</p>
+              <p class="date">22 Maret 2023</p>
+              <p class="comment">Psikolog bisa berhasil menarik aku yang keras kepala ini dari jalan buntu, dan kembali ke jalan yang benar, jadi lebih bisa melihat masalah dari sisi yang berbeda</p>
+            </div>
+            <!-- Tambahkan testimonial lebih banyak di sini -->
+            <div class="testimonial">
+              <img src="/gambar/Profile 3.png" alt="Avatar" class="avatar" />
+              <p class="name">yeo jeonghyuk</p>
+              <p class="date">22 Maret 2023</p>
+              <p class="comment">Rasa trauma yang saya alami selama berada di ORV dan bertemu orang gila yang membuang saya ke mulut naga air saat pertemuan pertama, bisa saya atasi berkat konsultasi di sahabat pulih.</p>
+            </div>
+            <div class="testimonial">
+              <img src="/gambar/profile4.jpg" alt="Avatar" class="avatar" />
+              <p class="name">yeo jeonghyuk</p>
+              <p class="date">22 Maret 2023</p>
+              <p class="comment">Psikolog bisa berhasil menarik aku yang keras kepala ini dari jalan buntu, dan kembali ke jalan yang benar, jadi lebih bisa melihat masalah dari sisi yang berbeda</p>
+            </div>
+            <div class="testimonial">
+              <img src="/gambar/profile 5.jpeg" alt="Avatar" class="avatar" />
+              <p class="name">yeo jeonghyuk</p>
+              <p class="date">22 Maret 2023</p>
+              <p class="comment">Rasa trauma yang saya alami selama berada di ORV dan bertemu orang gila yang membuang saya ke mulut naga air saat pertemuan pertama, bisa saya atasi berkat konsultasi di sahabat pulih.</p>
+            </div>
+            <div class="testimonial">
+              <img src="/gambar/profile 6.jpeg" alt="Avatar" class="avatar" />
+              <p class="name">yeo jeonghyuk</p>
+              <p class="date">22 Maret 2023</p>
+              <p class="comment">Psikolog bisa berhasil menarik aku yang keras kepala ini dari jalan buntu, dan kembali ke jalan yang benar, jadi lebih bisa melihat masalah dari sisi yang berbeda</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq">
+        <div class="faq-container">
+          <h1>FAQ</h1>
+          <div class="faq-item">
+            <div class="faq-question">
+              Apa itu Bully?
+              <span class="toggle-icon">+</span>
+              <!-- Plus icon -->
+            </div>
+            <div class="faq-answer" style="display: none">Bully adalah suatu kegiatan mengasikan.</div>
+          </div>
+          <!-- Add more FAQ items here -->
+          <div class="faq-item">
+            <div class="faq-question">
+              Apa saja layanan Sahabat Pulih ?
+              <span class="toggle-icon">+</span>
+              <!-- Plus icon -->
+            </div>
+            <div class="faq-answer" style="display: none">Layanan yang disediakan Sahabat Pulih ada 3 yaitu Live Chat, Live Call, dan Video Call.</div>
+          </div>
+          <!-- Add more FAQ items here -->
+          <div class="faq-item">
+            <div class="faq-question">
+              Apakah layanan Sahabat Pulih berbayar ?
+              <span class="toggle-icon">+</span>
+              <!-- Plus icon -->
+            </div>
+            <div class="faq-answer" style="display: none">Ya, layanan sahabat pulih berbayar tergantung jenis layanan yang dipilih.</div>
+          </div>
+          <!-- Add more FAQ items here -->
+          <div class="faq-item">
+            <div class="faq-question">
+              Dimana saya bisa menemukan Sahabat Pulih ?
+              <span class="toggle-icon">+</span>
+              <!-- Plus icon -->
+            </div>
+            <div class="faq-answer" style="display: none">Kamu bisa menemukan Sahabat Pulih di website SahabatPulih.com, dan media sosial lainnya seperti IG, Twiter, TikTok, dll.</div>
+          </div>
+          <!-- Add more FAQ items here -->
+          <div class="faq-item">
+            <div class="faq-question">
+              Apakah Sahabat Pulih dapat membantu saya ?
+              <span class="toggle-icon">+</span>
+              <!-- Plus icon -->
+            </div>
+            <div class="faq-answer" style="display: none">
+              Tentu saja kami ada untuk membantu sahabat yang sedang menghadapi kesulitan dalam mengatasi masalah , kami menyediakan jalan keluar untuk mengatasi masalah sahabat. Jadi jangan ragu untuk menghubungi kami.
+            </div>
+          </div>
+          <!-- Add more FAQ items here -->
+        </div>
+      </section>
+
+      <!-- footer -->
+      <footer>
+        <div class="footer1">
+          <div class="textft">
+            <h1>Siap Untuk Menyembuhkan Rasa Traumamu ?</h1>
+          </div>
+          <div class="btn-ftr1">
+            <button class="btn1">Daftar Sekarang</button>
+            <button class="btn2">Pelajari Dahulu</button>
+          </div>
+        </div>
+        <hr />
+
+        <div class="footer2">
+          <div class="lgo-ftr">
+            <h1>Sahabat Pulih</h1>
+          </div>
+          <div class="ftr-list">
+            <div class="list1">
+              <ul>
+                <li>Beranda</li>
+                <li>Psikolog</li>
+                <li>Tentang Kami</li>
+                <li>Artikel</li>
+              </ul>
+            </div>
+
+            <div class="list2">
+              <ul>
+                <li>Video</li>
+                <li>Team Kami</li>
+                <li>List Psikolog</li>
+                <li>ambasjng</li>
+                <li>Contact Kami</li>
+              </ul>
+            </div>
+            <div class="list3">
+              <p>email@gmail.com</p>
+              <p>emiallprem@gmail.com</p>
+              <div class="icon">
+                <img width="40" height="40" src="https://img.icons8.com/color/48/facebook.png" alt="facebook" />
+                <img width="40" height="40" src="https://img.icons8.com/color/48/linkedin.png" alt="linkedin" />
+                <img width="40" height="40" src="https://img.icons8.com/color/48/instagram-new--v1.png" alt="instagram-new--v1" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>

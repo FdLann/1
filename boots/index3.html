@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-custom fixed-top">
+      <div class="container">
+        <a class="navbar-brand display-50" href="/beranda.html">SAHABAT PULIH</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active ms-3" aria-current="page" href="/beranda.html">BERANDA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active ms-3" href="index.html">PSIKOLOG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active ms-3" href="/about-us.html">TENTANG KAMI</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active ms-3" href="/artikel.html">ARTIKEL</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link custom-btn text-dark ms-3 rounded-pill text-center" href="./vendor/register.html">DAFTAR</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Konten Utama -->
+    <div class="container mt-5 pt-5">
+      <div class="row">
+        <!-- Kolom Psikolog -->
+        <div class="col-md-4 mt-3 order-md-1">
+          <!-- Card Psikolog -->
+          <div class="card shadow border-0" style="border-radius: 25px">
+            <img src="./image/psikolog06.jpg" alt="Image 1" style="width: 150px; height: 150px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.3)" data-bs-toggle="modal" data-bs-target="#exampleModal" />
+            <div class="card-body text-center">
+              <h6 class="card-subtitle mb-2">Psikolog Klinik Dewasa</h6>
+              <h5 class="card-title">Ratna Dewi M.Psi Psikolog</h5>
+              <div class="card-text">
+                <i class="material-icons">group</i> 210 + Sesi<br />
+                <i class="material-icons">favorite</i> 99% Puas (190 Review)<br />
+                <i class="material-icons">work</i> 2 - 5 Tahun
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Kolom Informasi Psikolog -->
+        <div class="col-md-8 mt-3 order-md-2">
+          <div class="row">
+            <!-- Card Tentang Psikolog -->
+            <div class="col-md-12">
+              <div class="card mt-3 shadow border-0" style="border-radius: 20px">
+                <div class="card-body">
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam autem esse illo aspernatur magnam totam pariatur dolor, porro quaerat. Inventore quod doloremque atque ipsa nesciunt in eum, eaque eveniet incidunt,
+                    praesentium laborum! Eaque accusamus perspiciatis, hic minima cupiditate accusantium adipisci eius vel qui tempora delectus, doloremque deserunt sit quod quia aliquid exercitationem at aperiam modi esse molestiae
+                    distinctio rem autem.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Card Pendidikan -->
+            <div class="col-md-6">
+              <div class="card mt-3 shadow border-0" style="border-radius: 25px">
+                <div class="card-body">
+                  <h5 class="card-title">Pendidikan</h5>
+                  <p class="card-text">
+                    Informasi tentang pendidikan psikolog <br />
+                    Ratna Dewi M.Psi Psikolog
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Card Bidang Keahlian -->
+            <div class="col-md-6">
+              <div class="card mt-3 shadow border-0" style="border-radius: 25px">
+                <div class="card-body">
+                  <h5 class="card-title">Bidang Keahlian</h5>
+                  <p class="card-text">
+                    Masalah diri <br />
+                    Kecanduan
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Card Ulasan -->
+            <div class="col-md-12 mt-3">
+              <div class="card shadow border-0" style="border-radius: 25px">
+                <div class="card-body">
+                  <h5 class="card-title">Ulasan</h5>
+                  <!-- Ulasan #1 -->
+                  <div class="card mt-2 bg-info shadow border-0" style="border-radius: 25px">
+                    <div class="card-body">
+                      <div class="d-flex align-items-center">
+                        <img src="https://mysiloam-api.siloamhospitals.com/storage-down/doctor/doctor_2022_08_29_15513516617630959451661763095945.jpeg" class="rounded-circle me-3" alt="Profil Pengulas" style="width: 50px; height: 50px" />
+                        <div>
+                          <h6 class="card-subtitle mb-2">babang ganteng</h6>
+                          <p class="card-text">15 juni 2023</p>
+                        </div>
+                      </div>
+                      <p class="card-text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium quibusdam quas, molestias doloremque perspiciatis quo, cupiditate repellendus deleniti perferendis maiores ipsam veniam placeat aut obcaecati
+                        praesentium quos tempora expedita in.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- Ulasan #2 -->
+                  <div class="card mt-2 bg-info shadow border-0" style="border-radius: 25px">
+                    <div class="card-body">
+                      <div class="d-flex align-items-center">
+                        <img src="https://mysiloam-api.siloamhospitals.com/storage-down/doctor/doctor_2022_02_22_14403016455156309891645515630989.jpeg" class="rounded-circle me-3" alt="Profil Pengulas" style="width: 50px; height: 50px" />
+                        <div>
+                          <h6 class="card-subtitle mb-2">neneng manis</h6>
+                          <p class="card-text">20 maret 2024</p>
+                        </div>
+                      </div>
+                      <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque voluptatem alias atque nam recusandae neque, hic magni modi minima voluptatibus ipsam incidunt quo a animi beatae fugiat debitis fuga. Repudiandae.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-center mt-3">
+                  <a href="./vendor/register.html" class="btn btn-primary rounded-pill">Konsultasi Sekarang</a>
+                </div>
+                <br />
+              </div>
+              <br />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br /><br />
+
+    <!-- footer -->
+    <footer class="footer bg-custom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <br />
+            <h3>Tentang Kami</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod justo at felis eleifend, non aliquam enim aliquam.</p>
+          </div>
+          <div class="col-md-3">
+            <br />
+            <h3>Menu</h3>
+            <ul class="list-unstyled">
+              <li><a href="#">Beranda</a></li>
+              <li><a href="#">Psikolog</a></li>
+              <li><a href="#">Tentang Kami</a></li>
+              <li><a href="#">Artikel</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <br />
+            <h3>Kontak</h3>
+            <p>Alamat: Jalan Contoh No. 123, Kota, Negara</p>
+            <p>Email: example@example.com</p>
+            <p>Telepon: 123-456-789</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p class="text-center">© 2024 Sahabat Pulih. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>

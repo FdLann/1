@@ -1,0 +1,357 @@
+:root {
+  --main-color: #003da7;
+  --btn-color: #ffe401;
+  --btn-effect-color: #fdc101;
+  --btn-scnd-color: #1467c3;
+  --btn-thrd-color: #05a5de;
+  --text-color: #f8f8f8;
+  --bg-color: #efefef;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: var(--bg-color);
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.3);
+  background-color: var(--main-color);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  padding-bottom: 1.2em;
+  z-index: 1000; /* Add a higher z-index value to keep the header on top */
+}
+
+header h1 {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  background-color: var(--main-color);
+  font-family: "Playfair Display", serif;
+  font-weight: lighter;
+  font-size: 2em;
+  margin: 0;
+  margin-left: 2em;
+}
+
+nav {
+  display: flex;
+  justify-content: end;
+  margin-top: 1em;
+  margin-left: 10em;
+  margin-right: 3em;
+}
+
+nav ul {
+  background-color: var(--main-color);
+  gap: 3em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center; /* Mengatur agar item berada pada posisi yang sama secara vertikal */
+}
+
+nav ul li {
+  background-color: var(--main-color);
+}
+
+nav a {
+  font-weight: normal;
+  background-color: var(--main-color);
+  font-size: 1em;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  font-weight: bold;
+  color: yellow;
+}
+
+li button {
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 1.5em;
+  background-color: var(--btn-color);
+  color: var(--main-color);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* NAVBAR END */
+/* section 2 */
+.container {
+  display: flex;
+}
+.left-column,
+.right-column {
+  flex: 1;
+  padding: 20px;
+}
+.left-column {
+  background-color: #e0e0e0;
+}
+.left-column img {
+  border-radius: 20px;
+  width: 100%;
+}
+.right-column {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  background-color: #e0e0e0;
+}
+.card {
+  cursor: pointer;
+}
+.bord {
+  border-radius: 5px;
+}
+
+.card-text {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* section 2 end */
+
+/* section 3 */
+.art1 {
+  padding: 5em 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.art1 img {
+  width: 100%;
+}
+/* section 3 end */
+
+/* section4 */
+.beranda4 {
+  padding: 3em 3em;
+}
+
+.beranda4 a {
+  padding: 2em 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ber-cont {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text4 h1 {
+  max-width: 550px;
+  font-size: 54px;
+  font-weight: bold;
+}
+
+.text4 p {
+  max-width: 400px;
+  font-size: 20px;
+  font-weight: 300;
+}
+/* section4 end */
+
+/* section5 */
+.beranda5 {
+  padding: 3em 3em;
+}
+.beranda5 h1 {
+  padding-bottom: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.beranda5 a {
+  padding-top: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ber-cont5 {
+  padding: 0 5em;
+  padding-bottom: 10em;
+  display: flex;
+  justify-content: space-between;
+}
+.post {
+  background-color: rgba(217, 217, 217, 0.6); /* Warna latar belakang dengan transparansi */
+  backdrop-filter: blur(10px); /* Efek blur */
+  transform: translateY(-80px);
+}
+.card .back {
+  width: 18rem;
+  height: 10rem;
+}
+/* section5 end*/
+
+/* footer */
+footer {
+  background-image: url(/gambar/footer.png);
+  padding: 50px 100px;
+}
+
+.footer1 {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+}
+.textft {
+  background-color: transparent;
+}
+
+.textft h1 {
+  background-color: transparent;
+  color: var(--text-color);
+  font-size: 2em;
+  max-width: 350px;
+}
+
+.lgo-ftr {
+  transform: translateY(20px);
+  color: white;
+  background-color: transparent;
+}
+
+.lgo-ftr h1 {
+  background-color: transparent;
+}
+
+.footer1 .btn-ftr1 {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer1 .btn1 {
+  border-radius: 30px;
+  color: var(--text-color);
+  padding: 10px 40px;
+  background-color: var(--btn-thrd-color);
+}
+.footer1 .btn2 {
+  border-radius: 30px;
+  color: var(--text-color);
+  padding: 10px 40px;
+  background-color: black;
+  border: white solid 2px;
+}
+
+.footer2 {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer2 h1 {
+  background-color: transparent;
+}
+
+.ftr-list {
+  color: white;
+  transform: translateY(20px);
+  background-color: transparent;
+  display: flex;
+  gap: 3em;
+  justify-content: space-between;
+}
+.list1 {
+  background-color: transparent;
+}
+.list1 ul {
+  background-color: transparent;
+}
+
+.list1 li {
+  background-color: transparent;
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+
+.list2 {
+  background-color: transparent;
+}
+.list2 ul {
+  background-color: transparent;
+}
+.list2 li {
+  background-color: transparent;
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+
+.list3 {
+  background-color: transparent;
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+
+.list3 p {
+  background-color: transparent;
+}
+
+.list3 .icon {
+  background-color: transparent;
+}
+.icon img {
+  background-color: transparent;
+}
+/* end faq */
+/* Navigasi Burger */
+
+.burger-menu {
+  display: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: black;
+  background-color: var(--main-color);
+  padding: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+  /* Sembunyikan nav menu */
+  header .logo {
+    font-size: 2em;
+  }
+  nav ul {
+    display: none;
+  }
+
+  /* Tampilkan tombol burger */
+  .burger-menu {
+    display: block;
+  }
+
+  /* Gaya untuk menu dropdown */
+  nav ul.show {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    background-color: var(--main-color);
+    padding: 10px;
+  }
+
+  nav ul.show li {
+    margin-bottom: 10px;
+  }
+}

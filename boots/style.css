@@ -1,0 +1,250 @@
+body {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.navbar {
+    height: 80px;
+}
+
+@media (max-width: 991.98px) {
+    .navbar {
+        height: auto;
+        /* Atur ketinggian navbar menjadi otomatis saat tampilan responsif */
+    }
+}
+
+.container {
+    width: 100%;
+}
+
+.card-subtitle {
+    color: #06B7F7;
+}
+
+.bg-custom {
+    background-color: #003DA7;
+    color: #FFFFFF;
+}
+
+.bg-cust {
+    background: #CDF1FD;
+}
+
+
+.card-title {
+    color: #003DA7;
+}
+
+.coba {
+    margin-top: 100px;
+}
+
+.custom-btn {
+    background-color: #ffe401;
+    color: #FFFFFF;
+    font-weight: bolder;
+}
+
+.keahlian-item {
+    display: inline-block;
+    background-color: #01B5F7;
+    font-weight: bold;
+}
+
+
+.card img {
+    border-radius: 15px;
+    max-width: 80%;
+    height: auto;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+/* 
+.card-text {
+    padding-left: 50px;
+} */
+
+.btn {
+    background: linear-gradient(to right, #3591f3, #04355ce7);
+    border: none;
+    color: #FFF;
+}
+
+.nav-link.custom-btn {
+    font-weight: 600;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card-price {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.btn-center {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.bg-chat {
+    background-color: #0480AD;
+}
+
+
+.card-body1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 25px 25px 0 0;
+    -webkit-border-radius: 25px 25px 0px 0px;
+    -moz-border-radius: 25px 25px 0 0;
+    -ms-border-radius: 25px 25px 0 0;
+    -o-border-radius: 25px 25px 0 0;
+}
+
+.checklist-icon {
+    color: green;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.service-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+footer footer {
+    background-image: url(../nav/gambar/footer.png);
+    padding: 50px 100px;
+}
+
+.footer1 {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textft {
+    background-color: transparent;
+}
+
+.textft h1 {
+    background-color: transparent;
+    color: #fff;
+    font-size: 2em;
+    max-width: 350px;
+}
+
+.lgo-ftr {
+    transform: translateY(20px);
+    color: #FFF;
+    background-color: transparent;
+    -webkit-transform: translateY(20px);
+    -moz-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    -o-transform: translateY(20px);
+}
+
+.lgo-ftr h1 {
+    background-color: #fff;
+}
+
+.footer1 .btn-ftr1 {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer1 .btn1 {
+    border-radius: 30px;
+    color: #fff;
+    padding: 10px 40px;
+    background-color: #06B7F7;
+}
+
+.footer1 .btn2 {
+    border-radius: 30px;
+    color: #fff;
+    padding: 10px 40px;
+    background-color: black;
+    border: white solid 2px;
+}
+
+.footer2 {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer2 h1 {
+    background-color: transparent;
+}
+
+.ftr-list {
+    color: white;
+    transform: translateY(20px);
+    background-color: transparent;
+    display: flex;
+    gap: 3em;
+    justify-content: space-between;
+}
+
+.list1 {
+    background-color: transparent;
+}
+
+.list1 ul {
+    background-color: transparent;
+}
+
+.list1 li {
+    background-color: transparent;
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+.list2 {
+    background-color: transparent;
+}
+
+.list2 ul {
+    background-color: transparent;
+}
+
+.list2 li {
+    background-color: transparent;
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+.list3 {
+    background-color: transparent;
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+
+.footer {
+    text-decoration: none;
+    background: #1a0d0d;
+}
